@@ -1,4 +1,4 @@
-package com.packtpub;
+package com.packtpub.livecamera;
 
 import android.content.Context;
 

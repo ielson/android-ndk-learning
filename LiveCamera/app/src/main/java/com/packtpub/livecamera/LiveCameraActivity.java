@@ -1,4 +1,4 @@
-package com.packtpub;
+package com.packtpub.livecamera;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -8,6 +8,8 @@ import android.hardware.Camera;
 import android.os.Bundle;
 import android.view.TextureView;
 import android.widget.ImageView;
+
+import com.packtpub.livecamera.R;
 
 import java.io.IOException;
 import java.util.List;
