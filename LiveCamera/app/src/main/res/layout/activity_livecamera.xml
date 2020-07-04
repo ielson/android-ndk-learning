@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    a:baselineAligned="true" a:orientation="horizontal"
+    a:layout_width="fill_parent" a:layout_height="fill_parent">
+    <LinearLayout
+        a:layout_width="match_parent" a:layout_height="fill_parent"
+        a:layout_weight="1" a:orientation="vertical">
+    <TextureView
+        a:layout_width="fill_parent" a:id="@+id/preview"
+        a:layout_weight="1" a:layout_height="fill_parent"/>
+    <ImageView
+        a:layout_width="fill_parent"
+        a:layout_height="fill_parent"
+        a:id="@+id/imageViewR"
+        a:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        a:layout_width="fill_parent"
+        a:layout_height="fill_parent"
+        a:layout_weight="1"
+        a:orientation="vertical">
+        <ImageView
+            a:layout_width="fill_parent"
+            a:layout_height="fill_parent"
+            a:id="@+id/imageViewG"
+            a:layout_weight="1"/>
+        <ImageView
+            a:layout_width="fill_parent"
+            a:layout_height="fill_parent"
+            a:id="@+id/imageViewB"
+            a:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
