@@ -40,4 +40,6 @@ dependencies {
 
     // rosjava imports
     implementation 'org.ros.android_core:android_core_components:0.4.0'
+    implementation 'org.ros.rosjava_messages:std_msgs:0.5.11'
+    implementation 'org.ros.rosjava_core:rosjava_tutorial_pubsub:[0.3,0.4)'
 }
